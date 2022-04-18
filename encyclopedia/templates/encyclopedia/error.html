@@ -1,0 +1,14 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+
+    Error
+    
+{% endblock %}
+
+{% block body %}
+
+    <h1>Entry {{ result }} exist.</h1>
+    <a href="{% url 'index' %}" class="btn btn-dark">Back to Index</a>
+
+{% endblock %}

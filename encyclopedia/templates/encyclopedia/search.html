@@ -1,0 +1,15 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Search
+{% endblock %}
+
+{% block body %}
+
+    <h1>Related pages for {{ item }} </h1>   
+    {% for item in list %}
+        <li class="entry-link"><a href=/wiki/{{item}}>{{ item }}</a></li>
+        {% empty %}
+            <h3 class="no-item">No item</h3>
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,2 @@
+#Jinja
+Jinja is a web template engine for the Python programming language. The Jinja template engine allows customization of tags, filters, tests, and globals. Also, unlike the Django template engine, Jinja allows the template designer to call functions with arguments on objects. Jinja is Flask's default template engine and it is also used by Ansible, Trac, and Salt.
