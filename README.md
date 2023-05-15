@@ -1,3 +1,3 @@
 # Wikipedia
 
-[screenshot](https://github.com/kromabyte/MyEncyclopedia/tree/master/images)
+![screenshot image ](https://github.com/kromabyte/MyEncyclopedia/tree/master/images)
